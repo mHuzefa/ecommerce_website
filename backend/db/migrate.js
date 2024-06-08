@@ -8,7 +8,7 @@ mysql.createConnection({
   password : ''
 }).then((connection) => {
   connection.query('CREATE DATABASE IF NOT EXISTS vendor_shop_management;').then(() => {
-    sequelize.sync().then(() => {
+    sequelize.sync({force: true}).then(() => {
       console.log('Database & tables created!');
     }).catch(err => {
       console.error('Error creating database & tables:', err);

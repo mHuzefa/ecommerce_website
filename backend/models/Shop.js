@@ -29,9 +29,29 @@ const Shop = sequelize.define('Shop', {
     allowNull: false,
     defaultValue: 'Active',
   },
+  location_id: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    references: {
+        model: 'Locations',
+        key: 'id'
+    }
+  },
+  created_at: {
+    type: DataTypes.DATE,
+    allowNull: false,
+    defaultValue: DataTypes.NOW,
+  },
+  updated_at: {
+    type: DataTypes.DATE,
+    allowNull: false,
+    defaultValue: DataTypes.NOW,
+  },
 }, {
   tableName: 'shops',
   timestamps: true,
+  updatedAt: 'updated_at',
+  createdAt: 'created_at', 
 });
 
 // Define the association with the Location model
