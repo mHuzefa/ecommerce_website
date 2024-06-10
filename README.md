@@ -8,6 +8,7 @@ This project consists of separate directories for the backend (Node.js and MySQL
 ### Prerequisites
 - Node.js installed on your machine
 - MySQL installed and running locally or accessible remotely
+  - Incase SQL is not installed, setup from here [SQL Seteup](https://github.com/mHuzefa/ecommerce_website/blob/main/sql_setup.md)
 
 
 ### Installation
