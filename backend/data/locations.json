@@ -1,0 +1,22 @@
+[
+  { "name": "USA", "level": 1, "parent_id": null, "createdAt": "2024-06-01 12:00:00", "updatedAt": "2024-06-01 12:00:00" },
+  { "name": "New York", "level": 2, "parent_id": 1, "createdAt": "2024-06-02 12:00:00", "updatedAt": "2024-06-02 12:00:00" },
+  { "name": "Los Angeles", "level": 2, "parent_id": 1, "createdAt": "2024-06-03 12:00:00", "updatedAt": "2024-06-03 12:00:00" },
+  { "name": "Chicago", "level": 2, "parent_id": 1, "createdAt": "2024-06-04 12:00:00", "updatedAt": "2024-06-04 12:00:00" },
+  { "name": "Manhattan", "level": 3, "parent_id": 2, "createdAt": "2024-06-05 12:00:00", "updatedAt": "2024-06-05 12:00:00" },
+  { "name": "Brooklyn", "level": 3, "parent_id": 2, "createdAt": "2024-06-06 12:00:00", "updatedAt": "2024-06-06 12:00:00" },
+  { "name": "Downtown", "level": 4, "parent_id": 3, "createdAt": "2024-06-07 12:00:00", "updatedAt": "2024-06-07 12:00:00" },
+  { "name": "Midtown", "level": 4, "parent_id": 3, "createdAt": "2024-06-08 12:00:00", "updatedAt": "2024-06-08 12:00:00" },
+  { "name": "Wall Street", "level": 5, "parent_id": 4, "createdAt": "2024-06-09 12:00:00", "updatedAt": "2024-06-09 12:00:00" },
+  { "name": "Times Square", "level": 5, "parent_id": 4, "createdAt": "2024-06-10 12:00:00", "updatedAt": "2024-06-10 12:00:00" },
+  { "name": "California", "level": 3, "parent_id": 1, "createdAt": "2024-06-11 12:00:00", "updatedAt": "2024-06-11 12:00:00" },
+  { "name": "San Francisco", "level": 4, "parent_id": 8, "createdAt": "2024-06-12 12:00:00", "updatedAt": "2024-06-12 12:00:00" },
+  { "name": "Los Angeles County", "level": 4, "parent_id": 8, "createdAt": "2024-06-13 12:00:00", "updatedAt": "2024-06-13 12:00:00" },
+  { "name": "Silicon Valley", "level": 5, "parent_id": 9, "createdAt": "2024-06-14 12:00:00", "updatedAt": "2024-06-14 12:00:00" },
+  { "name": "Hollywood", "level": 5, "parent_id": 9, "createdAt": "2024-06-15 12:00:00", "updatedAt": "2024-06-15 12:00:00" },
+  { "name": "Florida", "level": 3, "parent_id": 1, "createdAt": "2024-06-16 12:00:00", "updatedAt": "2024-06-16 12:00:00" },
+  { "name": "Miami", "level": 4, "parent_id": 10, "createdAt": "2024-06-17 12:00:00", "updatedAt": "2024-06-17 12:00:00" },
+  { "name": "Orlando", "level": 4, "parent_id": 10, "createdAt": "2024-06-18 12:00:00", "updatedAt": "2024-06-18 12:00:00" },
+  { "name": "Disneyland", "level": 5, "parent_id": 11, "createdAt": "2024-06-19 12:00:00", "updatedAt": "2024-06-19 12:00:00" },
+  { "name": "Universal Studios", "level": 5, "parent_id": 11, "createdAt": "2024-06-20 12:00:00", "updatedAt": "2024-06-20 12:00:00" }
+]
